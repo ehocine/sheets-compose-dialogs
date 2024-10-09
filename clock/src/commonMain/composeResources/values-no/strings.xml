@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >OK</string>
+    <string name="scd_clock_dialog_minute_code" >OK</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >OK</string>
+    <string name="scd_clock_dialog_pm" >PM</string>
+    <string name="scd_clock_dialog_next_value" >Neste verdi</string>
+    <string name="scd_clock_dialog_previous_value" >Tidligere verdi</string>
+    <string name="scd_clock_dialog_boundary_hint" >Må være mellom %1$s og %2$s.</string>
+
+    <string name="scd_clock_dialog_hours">Timer</string>
+    <string name="scd_clock_dialog_minutes">Minutter</string>
+    <string name="scd_clock_dialog_seconds">Sekunder</string>
+</resources>

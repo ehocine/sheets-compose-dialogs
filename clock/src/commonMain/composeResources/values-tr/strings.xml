@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >h</string>
+    <string name="scd_clock_dialog_minute_code" >metin</string>
+    <string name="scd_clock_dialog_second_code" >s (OK)</string>
+    <string name="scd_clock_dialog_day_code" >Metni çevirmek için yeterli bir bağlam sağlanmadığından dolayı, size yardımcı olabilmem için daha fazla bilgiye ihtiyacım var. Lütfen tam bir cümle veya metin sağlayın.</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >PM</string>
+    <string name="scd_clock_dialog_next_value" >Sonraki değer</string>
+    <string name="scd_clock_dialog_previous_value" >Önceki değer</string>
+    <string name="scd_clock_dialog_boundary_hint" >%1$s ile %2$s arasında olmalıdır.</string>
+
+    <string name="scd_clock_dialog_hours">Saatler</string>
+    <string name="scd_clock_dialog_minutes">Dakikalar</string>
+    <string name="scd_clock_dialog_seconds">Saniyeler</string>
+</resources>

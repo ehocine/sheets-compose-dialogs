@@ -14,8 +14,19 @@
  *  limitations under the License.
  */
 plugins {
-    id(Plugins.LIBRARY.id)
-    id(Plugins.KOTLIN.id)
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.multiplatform)
+}
+
+kotlin {
+    androidTarget {
+        compilations.all {
+            kotlinOptions {
+                jvmTarget = "${JavaVersion.VERSION_11}"
+                freeCompilerArgs += "-Xjdk-release=${JavaVersion.VERSION_11}"
+            }
+        }
+    }
 }
 
 android {
@@ -32,14 +43,11 @@ android {
         sourceCompatibility(JavaVersion.VERSION_1_8)
         targetCompatibility(JavaVersion.VERSION_1_8)
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
     buildFeatures {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = Versions.COMPOSE_COMPILER
+        kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
     }
     packagingOptions {
         resources {
@@ -50,5 +58,5 @@ android {
 
 dependencies {
     api(project(Modules.CORE.path))
-    implementation(Dependencies.Compose.Test.JUNIT)
+    implementation(libs.androidx.ui.test.junit4)
 }

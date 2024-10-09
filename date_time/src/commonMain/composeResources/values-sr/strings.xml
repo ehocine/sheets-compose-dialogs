@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Sati</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Minuti</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Sekunde</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Dan</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Mesec</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Godina</string>
+    <string name="sheets_compose_dialogs_set_time" >Postavite vreme</string>
+    <string name="sheets_compose_dialogs_set_date" >Postavi datum</string>
+
+</resources>

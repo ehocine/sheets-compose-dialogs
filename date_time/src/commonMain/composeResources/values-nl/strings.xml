@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Uren</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Notulen</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Seconden</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Dag</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Maand</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Jaar</string>
+    <string name="sheets_compose_dialogs_set_time" >Tijd instellen</string>
+    <string name="sheets_compose_dialogs_set_date" >Stel datum in</string>
+
+</resources>

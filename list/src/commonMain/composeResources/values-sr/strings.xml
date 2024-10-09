@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="scd_list_dialog_min_choices" >Izaberite najmanje %1$d opciju</string>
+    <string name="scd_list_dialog_max_choices" >Odaberite najviše %1$d opcija</string>
+
+</resources>

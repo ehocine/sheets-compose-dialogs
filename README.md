@@ -61,8 +61,6 @@ In your app `build.gradle` file:
 ```gradle
 dependencies {
   ...
-  // Implementing the `core` module is mandatory for using other use cases.
-  implementation 'com.maxkeppeler.sheets-compose-dialogs:core:<version>' 
   implementation 'com.maxkeppeler.sheets-compose-dialogs:<module>:<version>'
 }
 ```

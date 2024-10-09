@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="scd_duration_dialog_at_least_placeholder" >מינימום</string>
+    <string name="scd_duration_dialog_at_most_placeholder" >מרבי</string>
+    <string name="scd_duration_dialog_hour_code" >h</string>
+    <string name="scd_duration_dialog_minute_code" >m</string>
+    <string name="scd_duration_dialog_second_code" >s</string>
+    <string name="scd_duration_dialog_hours" >שעות</string>
+    <string name="scd_duration_dialog_minutes" >דקות</string>
+    <string name="scd_duration_dialog_seconds" >שניות</string>
+    <string name="scd_duration_dialog_delete_last_input" >מחק את הקלט האחרון</string>
+    <string name="scd_duration_dialog_clear_input" >נקה קלט</string>
+
+</resources>

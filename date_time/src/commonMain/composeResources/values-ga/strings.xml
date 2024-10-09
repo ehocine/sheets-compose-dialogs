@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >Príomh-Aire</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Uaireanta</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Nótaí</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Soicindí</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Lá</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Mí</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Bliain</string>
+    <string name="sheets_compose_dialogs_set_time" >Roghnaigh ama</string>
+    <string name="sheets_compose_dialogs_set_date" >Socrú dáta</string>
+
+</resources>

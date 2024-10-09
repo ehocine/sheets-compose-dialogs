@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >h</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >OK</string>
+    <string name="scd_clock_dialog_next_value" >Келесі мән</string>
+    <string name="scd_clock_dialog_previous_value" >Алдыңғы құндылық.</string>
+    <string name="scd_clock_dialog_boundary_hint" >%1$s жана %2$s аралыгында болуы тиіс.</string>
+
+    <string name="scd_clock_dialog_hours">Сағаттар</string>
+    <string name="scd_clock_dialog_minutes">Минуты</string>
+    <string name="scd_clock_dialog_seconds">Секунд</string>
+</resources>

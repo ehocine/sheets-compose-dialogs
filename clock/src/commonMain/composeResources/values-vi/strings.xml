@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >h</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >PM</string>
+    <string name="scd_clock_dialog_next_value" >Giá trị kế tiếp</string>
+    <string name="scd_clock_dialog_previous_value" >Giá trị trước đó</string>
+    <string name="scd_clock_dialog_boundary_hint" >Phải nằm trong khoảng từ %1$s đến %2$s</string>
+
+    <string name="scd_clock_dialog_hours">Giờ</string>
+    <string name="scd_clock_dialog_minutes">Phút</string>
+    <string name="scd_clock_dialog_seconds">Giây</string>
+</resources>

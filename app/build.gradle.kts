@@ -14,8 +14,19 @@
  *  limitations under the License.
  */
 plugins {
-    id(Plugins.APPLICATION.id)
-    id(Plugins.KOTLIN.id)
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.multiplatform)
+}
+
+kotlin {
+    androidTarget {
+        compilations.all {
+            kotlinOptions {
+                jvmTarget = "${JavaVersion.VERSION_11}"
+                freeCompilerArgs += "-Xjdk-release=${JavaVersion.VERSION_11}"
+            }
+        }
+    }
 }
 
 android {
@@ -46,14 +57,11 @@ android {
         // Flag to enable support for the new language APIs
         isCoreLibraryDesugaringEnabled = true
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
     buildFeatures {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = Versions.COMPOSE_COMPILER
+        kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
     }
     packagingOptions {
         resources {
@@ -67,7 +75,7 @@ dependencies {
     // Modules
 
     Modules.values().forEach { module ->
-        apis(project(module.path))
+        api(project(module.path))
     }
 
     // Dependencies of sheets-compose-dialogs
@@ -88,49 +96,25 @@ dependencies {
 //    implementation("com.maxkeppeler.sheets-compose-dialogs:emoji:$sheetsVersion")
 
 
-    coreLibraryDesugaring(Dependencies.DESUGAR)
-
-    // Kotlin libs
-
-    implementations(Dependencies.Kotlin.KOTLIN_STD)
+    coreLibraryDesugaring(libs.desugar)
 
 
     // AndroidX libs
-
-    implementations(
-        Dependencies.AndroidX.CORE_KTX,
-        Dependencies.AndroidX.LIFECYCLE_KTX,
-        Dependencies.AndroidX.ACTIVITY_COMPOSE,
-        Dependencies.AndroidX.NAVIGATION_COMPOSE,
-    )
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.navigation.compose)
 
 
     // Compose libs
 
-    implementations(
-        platform(Dependencies.Compose.BOM),
-        Dependencies.Compose.UI,
-        Dependencies.Compose.UI_TOOLING,
-        Dependencies.Compose.ANIMATION,
-        Dependencies.Compose.RUNTIME,
-        Dependencies.Compose.MATERIAL_2,
-        Dependencies.Compose.MATERIAL_3,
-        Dependencies.Compose.ICONS_EXTENDED,
-    )
-
     // Test libs
-
-    androidTestImplementations(
-        Dependencies.AndroidX.Test.TEST_CORE,
-        Dependencies.AndroidX.Test.TEST_RUNNER,
-        Dependencies.AndroidX.Test.JUNIT,
-        Dependencies.AndroidX.Test.ESPRESSO_CORE,
-        Dependencies.Compose.Test.JUNIT,
-        project(":test")
-    )
-    debugImplementations(
-        Dependencies.Compose.Test.TOOLING,
-        Dependencies.Compose.Test.MANIFEST
-    )
-    testImplementation(Dependencies.Test.JUNIT)
+    androidTestImplementation(libs.androidx.test.core)
+    androidTestImplementation(libs.androidx.runner)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(project(":test"))
+    debugImplementation(libs.androidx.ui.tooling)
+    debugImplementation(libs.androidx.ui.test.manifest)
+    testImplementation(libs.junit)
 }

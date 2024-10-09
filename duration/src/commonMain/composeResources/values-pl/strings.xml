@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="scd_duration_dialog_at_least_placeholder" >Minimum</string>
+    <string name="scd_duration_dialog_at_most_placeholder" >Maksimum</string>
+    <string name="scd_duration_dialog_hour_code" >OK</string>
+    <string name="scd_duration_dialog_minute_code" >m</string>
+    <string name="scd_duration_dialog_second_code" >s</string>
+    <string name="scd_duration_dialog_hours" >Godziny</string>
+    <string name="scd_duration_dialog_minutes" >Minuty</string>
+    <string name="scd_duration_dialog_seconds" >Sekundy</string>
+    <string name="scd_duration_dialog_delete_last_input" >Usuń ostatni wpis</string>
+    <string name="scd_duration_dialog_clear_input" >Wyczyść dane wejściowe</string>
+
+</resources>

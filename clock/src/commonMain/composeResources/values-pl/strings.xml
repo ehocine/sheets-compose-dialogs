@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >h</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >PM</string>
+    <string name="scd_clock_dialog_next_value" >Następna wartość</string>
+    <string name="scd_clock_dialog_previous_value" >Poprzednia wartość</string>
+    <string name="scd_clock_dialog_boundary_hint" >Musisz podać wartość pomiędzy %1$s a %2$s.</string>
+
+    <string name="scd_clock_dialog_hours">Godziny</string>
+    <string name="scd_clock_dialog_minutes">Minuty</string>
+    <string name="scd_clock_dialog_seconds">Sekundy</string>
+</resources>

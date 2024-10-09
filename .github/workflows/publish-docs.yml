@@ -8,6 +8,7 @@ jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
+    if: false
     steps:
       - name: Checkout add-docs
         uses: actions/checkout@v2

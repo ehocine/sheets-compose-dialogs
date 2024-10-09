@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Stundas</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Minūtes</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Sekundes</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Diena</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Mēnesis.</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Gads</string>
+    <string name="sheets_compose_dialogs_set_time" >Iestatīt laiku</string>
+    <string name="sheets_compose_dialogs_set_date" >Iestatīt datumu</string>
+
+</resources>

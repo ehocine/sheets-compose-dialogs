@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Jam</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Minit</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Saiz</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Hari</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Bulan</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Tahun</string>
+    <string name="sheets_compose_dialogs_set_time" >Masa yang ditetapkan</string>
+    <string name="sheets_compose_dialogs_set_date" >Tetapkan tarikh</string>
+
+</resources>

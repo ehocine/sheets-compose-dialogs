@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Klukkustundir</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Mínútur</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Sekúndur</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Dagur</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Mánuður</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Ár</string>
+    <string name="sheets_compose_dialogs_set_time" >Taktu tímann</string>
+    <string name="sheets_compose_dialogs_set_date" >Setja dagsetningu</string>
+
+</resources>

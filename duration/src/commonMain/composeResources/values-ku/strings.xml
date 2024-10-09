@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="scd_duration_dialog_at_least_placeholder" >Minimum</string>
+    <string name="scd_duration_dialog_at_most_placeholder" >سەرەتایی</string>
+    <string name="scd_duration_dialog_hour_code" >h</string>
+    <string name="scd_duration_dialog_minute_code" >m</string>
+    <string name="scd_duration_dialog_second_code" >s</string>
+    <string name="scd_duration_dialog_hours" >کاتژمێر</string>
+    <string name="scd_duration_dialog_minutes" >دەقایەکان</string>
+    <string name="scd_duration_dialog_seconds" >چرکەمینداڵان</string>
+    <string name="scd_duration_dialog_delete_last_input" >تاکە لەسەرین دانە حذف بکە</string>
+    <string name="scd_duration_dialog_clear_input" >جێگیرکردنەوەی دانەوە بەبڕوانە</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >h</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >PM
+
+Miniszterelnök (PM)</string>
+    <string name="scd_clock_dialog_next_value" >Következő érték</string>
+    <string name="scd_clock_dialog_previous_value" >Előző érték</string>
+    <string name="scd_clock_dialog_boundary_hint" >A megadott értéknek %1$s és %2$s között kell lennie.</string>
+
+    <string name="scd_clock_dialog_hours">Órák</string>
+    <string name="scd_clock_dialog_minutes">Percek</string>
+    <string name="scd_clock_dialog_seconds">Másodpercek</string>
+</resources>

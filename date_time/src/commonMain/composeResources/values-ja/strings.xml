@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >時間</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >分</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >秒</string>
+    <string name="sheets_compose_dialogs_date_time_day" >日</string>
+    <string name="sheets_compose_dialogs_date_time_month" >月</string>
+    <string name="sheets_compose_dialogs_date_time_year" >年</string>
+    <string name="sheets_compose_dialogs_set_time" >時間を設定してください。</string>
+    <string name="sheets_compose_dialogs_set_date" >日付を設定する</string>
+
+</resources>

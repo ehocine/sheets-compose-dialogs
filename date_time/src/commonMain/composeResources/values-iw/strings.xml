@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >ראש ממשלה</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >שעות</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >דקות</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >שניות</string>
+    <string name="sheets_compose_dialogs_date_time_day" >יום</string>
+    <string name="sheets_compose_dialogs_date_time_month" >חודש</string>
+    <string name="sheets_compose_dialogs_date_time_year" >שנה</string>
+    <string name="sheets_compose_dialogs_set_time" >הגדר זמן</string>
+    <string name="sheets_compose_dialogs_set_date" >הגדר תאריך</string>
+
+</resources>

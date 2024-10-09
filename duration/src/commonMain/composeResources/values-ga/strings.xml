@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="scd_duration_dialog_at_least_placeholder" >Is íochtarach.</string>
+    <string name="scd_duration_dialog_at_most_placeholder" >Teorainn Mórchumais</string>
+    <string name="scd_duration_dialog_hour_code" >h</string>
+    <string name="scd_duration_dialog_minute_code" >m</string>
+    <string name="scd_duration_dialog_second_code" >s</string>
+    <string name="scd_duration_dialog_hours" >Uaireanta</string>
+    <string name="scd_duration_dialog_minutes" >Nótaí</string>
+    <string name="scd_duration_dialog_seconds" >Soicindí</string>
+    <string name="scd_duration_dialog_delete_last_input" >Scrios an iontráil dheireanach</string>
+    <string name="scd_duration_dialog_clear_input" >Cléiriú isteach</string>
+
+</resources>

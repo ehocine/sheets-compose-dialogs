@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Horoj</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Minutes</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Sekundoj</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Tago</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Monato</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Jaro</string>
+    <string name="sheets_compose_dialogs_set_time" >Difini tempon</string>
+    <string name="sheets_compose_dialogs_set_date" >Agordi daton</string>
+
+</resources>

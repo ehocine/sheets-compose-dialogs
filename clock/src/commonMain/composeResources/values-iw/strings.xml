@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >h</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >PM</string>
+    <string name="scd_clock_dialog_next_value" >הערך הבא</string>
+    <string name="scd_clock_dialog_previous_value" >הערך הקודם</string>
+    <string name="scd_clock_dialog_boundary_hint" >יש להזין ערך בין %1$s ל-%2$s</string>
+
+    <string name="scd_clock_dialog_hours">שעות</string>
+    <string name="scd_clock_dialog_minutes">דקות</string>
+    <string name="scd_clock_dialog_seconds">שניות</string>
+</resources>

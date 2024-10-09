@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="scd_duration_dialog_at_least_placeholder" >न्यूनतम</string>
+    <string name="scd_duration_dialog_at_most_placeholder" >अधिकतम</string>
+    <string name="scd_duration_dialog_hour_code" >OK</string>
+    <string name="scd_duration_dialog_minute_code" >म</string>
+    <string name="scd_duration_dialog_second_code" >s</string>
+    <string name="scd_duration_dialog_hours" >कालों</string>
+    <string name="scd_duration_dialog_minutes" >दक्षिण, क्षण</string>
+    <string name="scd_duration_dialog_seconds" >सेकेण्ड</string>
+    <string name="scd_duration_dialog_delete_last_input" >अन्तिम इनपुटलाई मेटाउनुहोस्।</string>
+    <string name="scd_duration_dialog_clear_input" >प्रविष्टि साफ गर्नुहोस्</string>
+
+</resources>

@@ -7,8 +7,8 @@ pluginManagement {
 }
 rootProject.name = "sheets-compose-dialogs"
 include(
-    ":app",
-    ":test",
+    //":app",
+    //":test",
     // Include all modules
     ":core",
     ":info",

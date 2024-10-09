@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >प्रधानमन्त्री</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >कालों</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >मिनेटसह</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >सेकेन्ड</string>
+    <string name="sheets_compose_dialogs_date_time_day" >दिन</string>
+    <string name="sheets_compose_dialogs_date_time_month" >महिना</string>
+    <string name="sheets_compose_dialogs_date_time_year" >वर्ष</string>
+    <string name="sheets_compose_dialogs_set_time" >समय सेट गर्नुहोस्</string>
+    <string name="sheets_compose_dialogs_set_date" >मिति सेट गर्नुहोस्</string>
+
+</resources>

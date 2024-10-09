@@ -13,26 +13,26 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-import com.android.build.gradle.LibraryExtension
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id(Plugins.SPOTLESS.id) version (Plugins.SPOTLESS.version)
-    id(Plugins.DOKKA.id) version (Plugins.DOKKA.version)
+    alias(libs.plugins.android) apply false
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.compose) apply false
+    alias(libs.plugins.compose.compiler) apply false
+    alias(libs.plugins.multiplatform) apply false
+    alias(libs.plugins.publish) apply false
 }
 
 buildscript {
-
     repositories {
         google()
         mavenCentral()
-        maven("https://plugins.gradle.org/m2/")
-    }
-
-    dependencies {
-        classpath(Dependencies.Kotlin.GRADLE_PLUGIN)
-        classpath(Dependencies.Gradle.BUILD)
-        classpath(Dependencies.MAVEN_PUBLISH)
-        classpath(Dependencies.DOKKA)
+        gradlePluginPortal()
+        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
     }
 }
 
@@ -40,101 +40,14 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-    }
-}
-
-tasks.dokkaHtmlMultiModule.configure {
-    outputDirectory.set(projectDir.resolve("docs/api"))
-}
-
-subprojects {
-    plugins.apply(Plugins.SPOTLESS.id)
-    project.plugins.applyBaseConfig(project)
-    spotless {
-        kotlin {
-            target("**/*.kt")
-//            ktlint(Versions.KT_LINT)
-        }
-        kotlin {
-            target("**/*.kt")
-            targetExclude("**/core/icons/**/*.*")
-            licenseHeaderFile(rootProject.file("copyright.kt"))
-        }
-        kotlinGradle {
-            target("*.gradle.kts", "gradle/*.gradle.kts", "buildSrc/*.gradle.kts")
-            licenseHeaderFile(
-                rootProject.file("copyright.kt"),
-                "import|tasks|apply|plugins|rootProject"
-            )
-        }
-    }
-}
-
-
-/**
- * Apply base configurations to the subjects that include specific custom plugins.
- */
-fun PluginContainer.applyBaseConfig(project: Project) {
-    whenPluginAdded {
-        when (this) {
-            is LibraryModulePlugin -> {
-                project.extensions
-                    .getByType<LibraryExtension>()
-                    .apply {
-                        baseLibraryConfig()
-                    }
-            }
-        }
-    }
-}
-
-/**
- * Apply base library configurations to the subprojects that include the plugin [LibraryModulePlugin].
- */
-fun com.android.build.gradle.BaseExtension.baseLibraryConfig() {
-
-    compileSdkVersion(App.COMPILE_SDK)
-
-    defaultConfig {
-        minSdk = App.MIN_SDK
-        targetSdk = App.TARGET_SDK
-        testInstrumentationRunner = App.TEST_INSTRUMENTATION_RUNNER
-
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments += mapOf("module" to "${App.ID}-$name")
-            }
-        }
+        gradlePluginPortal()
+        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
     }
 
-    compileOptions.apply {
-        sourceCompatibility(JavaVersion.VERSION_1_8)
-        targetCompatibility(JavaVersion.VERSION_1_8)
-    }
-
-    buildFeatures.compose = true
-    composeOptions.kotlinCompilerExtensionVersion = Versions.COMPOSE_COMPILER
-
-    packagingOptions.resources.excludes += listOf(
-        "META-INF/DEPENDENCIES.txt",
-        "META-INF/LICENSE",
-        "META-INF/LICENSE.txt",
-        "META-INF/NOTICE",
-        "META-INF/NOTICE.txt",
-        "META-INF/AL2.0",
-        "META-INF/LGPL2.1"
-    )
-
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        kotlinOptions {
-            jvmTarget = "1.8"
-            freeCompilerArgs = freeCompilerArgs + listOf(
-                "-Xopt-in=androidx.compose.material.ExperimentalMaterial3Api",
-                "-Xopt-in=androidx.compose.animation.ExperimentalAnimationApi",
-                "-Xopt-in=androidx.compose.ui.test.ExperimentalTestApi",
-                "-Xopt-in=androidx.compose.foundation.ExperimentalFoundationApi",
-                "-Xopt-in=androidx.compose.ui.ExperimentalComposeUiApi",
-            )
+    tasks.withType<KotlinCompile>().configureEach {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_11)
         }
     }
 }

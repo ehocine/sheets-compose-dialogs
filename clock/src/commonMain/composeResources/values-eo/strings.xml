@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >h</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >PM</string>
+    <string name="scd_clock_dialog_next_value" >Sekva valoro</string>
+    <string name="scd_clock_dialog_previous_value" >Antaŭa valoro</string>
+    <string name="scd_clock_dialog_boundary_hint" >Deviĝas inter %1$s kaj %2$s</string>
+
+    <string name="scd_clock_dialog_hours">Horoj</string>
+    <string name="scd_clock_dialog_minutes">Minute</string>
+    <string name="scd_clock_dialog_seconds">Sekundoj</string>
+</resources>

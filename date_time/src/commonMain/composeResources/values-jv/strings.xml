@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Jam</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Menit</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Detik</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Sasi</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Bulan</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Tahun</string>
+    <string name="sheets_compose_dialogs_set_time" >Damel wanci</string>
+    <string name="sheets_compose_dialogs_set_date" >Tanggal ditetapke</string>
+
+</resources>

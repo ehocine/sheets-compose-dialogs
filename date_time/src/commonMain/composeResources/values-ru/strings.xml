@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Часы</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Минуты</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Секунды</string>
+    <string name="sheets_compose_dialogs_date_time_day" >День</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Месяц</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Год</string>
+    <string name="sheets_compose_dialogs_set_time" >Настроить время</string>
+    <string name="sheets_compose_dialogs_set_date" >Установить дату</string>
+
+</resources>

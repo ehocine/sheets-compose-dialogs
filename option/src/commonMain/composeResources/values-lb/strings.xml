@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="scd_option_dialog_min_choices" >Wielt mindestens %1$d Optiounen aus.</string>
+    <string name="scd_option_dialog_max_choices" >Wielt maximal %1$d Optiounen aus</string>
+
+</resources>

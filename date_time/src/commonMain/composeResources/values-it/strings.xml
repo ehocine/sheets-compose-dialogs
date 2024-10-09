@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM (Post Meridiem)</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Ore</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Minuti</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Secondi</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Giorno</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Mese</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Anno</string>
+    <string name="sheets_compose_dialogs_set_time" >Imposta l\'orario</string>
+    <string name="sheets_compose_dialogs_set_date" >Inserisci data</string>
+
+</resources>

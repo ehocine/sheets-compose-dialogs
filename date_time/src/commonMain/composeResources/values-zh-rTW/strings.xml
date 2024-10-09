@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM (下午/晚上)</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >小時</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >會議紀錄</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >秒</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Day
+
+日子</string>
+    <string name="sheets_compose_dialogs_date_time_month" >月份</string>
+    <string name="sheets_compose_dialogs_date_time_year" >年份</string>
+    <string name="sheets_compose_dialogs_set_time" >設置時間</string>
+    <string name="sheets_compose_dialogs_set_date" >設置日期</string>
+
+</resources>

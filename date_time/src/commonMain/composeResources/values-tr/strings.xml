@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Saatler</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Dakikalar</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Saniye</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Gün</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Ay</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Yıl</string>
+    <string name="sheets_compose_dialogs_set_time" >Zaman ayarla</string>
+    <string name="sheets_compose_dialogs_set_date" >Tarih ayarla</string>
+
+</resources>

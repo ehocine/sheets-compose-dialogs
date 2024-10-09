@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >ह</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >स</string>
+    <string name="scd_clock_dialog_day_code" >D</string>
+    <string name="scd_clock_dialog_am" >सकेसम्म</string>
+    <string name="scd_clock_dialog_pm" >प्रधानमन्त्री</string>
+    <string name="scd_clock_dialog_next_value" >अर्को मान्</string>
+    <string name="scd_clock_dialog_previous_value" >पहिले थियोे मान</string>
+    <string name="scd_clock_dialog_boundary_hint" >%1$s र %2$s को बीचमा हुनुपर्छ।</string>
+
+    <string name="scd_clock_dialog_hours">घण्टा</string>
+    <string name="scd_clock_dialog_minutes">मिनेटहरू</string>
+    <string name="scd_clock_dialog_seconds">सेकेन्ड</string>
+</resources>

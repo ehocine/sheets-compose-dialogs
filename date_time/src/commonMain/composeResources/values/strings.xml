@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="sheets_compose_dialogs_date_time_am" >AM</string>
+    <string name="sheets_compose_dialogs_date_time_pm" >PM</string>
+    <string name="sheets_compose_dialogs_date_time_hour" >Hours</string>
+    <string name="sheets_compose_dialogs_date_time_minutes" >Minutes</string>
+    <string name="sheets_compose_dialogs_date_time_seconds" >Seconds</string>
+    <string name="sheets_compose_dialogs_date_time_day" >Day</string>
+    <string name="sheets_compose_dialogs_date_time_month" >Month</string>
+    <string name="sheets_compose_dialogs_date_time_year" >Year</string>
+    <string name="sheets_compose_dialogs_set_time" >Set time</string>
+    <string name="sheets_compose_dialogs_set_date" >Set date</string>
+
+</resources>

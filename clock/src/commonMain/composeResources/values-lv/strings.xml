@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="scd_clock_dialog_hour_code" >OK.</string>
+    <string name="scd_clock_dialog_minute_code" >m</string>
+    <string name="scd_clock_dialog_second_code" >s</string>
+    <string name="scd_clock_dialog_day_code" >OK.</string>
+    <string name="scd_clock_dialog_am" >AM</string>
+    <string name="scd_clock_dialog_pm" >PM</string>
+    <string name="scd_clock_dialog_next_value" >Nākamā vērtība</string>
+    <string name="scd_clock_dialog_previous_value" >Iepriekšējā vērtība</string>
+    <string name="scd_clock_dialog_boundary_hint" >Jābūt starp %1$s un %2$s</string>
+
+    <string name="scd_clock_dialog_hours">Stundas</string>
+    <string name="scd_clock_dialog_minutes">Minūtes</string>
+    <string name="scd_clock_dialog_seconds">Sekundes</string>
+</resources>
